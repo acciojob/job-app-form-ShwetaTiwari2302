@@ -10,13 +10,13 @@
 	<!-- the entire body must be written by student -->
 	<div class="form-container">
         <form action="/submit-signup" method="post">
-            <label for="name">Name</label><br>
+            <label for="name">Name *</label><br>
             <input type="text" id="name" name="name" required><br><br>
 
-            <label for="email">Email</label><br>
+            <label for="email">Email *</label><br>
             <input type="email" id="email" name="email" required><br><br>
 
-                <legend>Gender</legend>
+                <legend>Gender *</legend>
                 <label for="gender_m">
                     <input type="radio" id="gender_m" name="gender" value="male" required>
                     Male
@@ -26,7 +26,7 @@
                     Female<br>
                 </label><br>
 
-            <label for="laptop brands">Laptop Brands</label><br>
+            <label for="laptop brands">Laptop Brands *</label><br>
             <select id="laptop" name="laptop brands" required>
                 <option value="" disabled selected>--Please choose an option--</option>
                 <option value="apple">Apple</option>
@@ -34,16 +34,16 @@
                 <option value="hp">HP</option>
             </select><br><br>
 
-            <label for="age">Age</label><br>
+            <label for="age">Age *</label><br>
             <input type="number" id="age" name="age" required><br><br>
 
-            <label for="dob">Date of Birth</label><br>
+            <label for="dob">Date of Birth *</label><br>
             <input type="date" id="dob" name="dob" required><br><br>
 
-            <label for="password">Password</label><br>
+            <label for="password">Password *</label><br>
             <input type="password" id="password" name="password" required><br><br>
 
-			<lable for="portfolio">Portfolio URL</lable>
+			<lable for="portfolio">Portfolio URL *</lable>
 			<input type="url" id="portfolio" name="portfolio">
 
             <button type="submit">Submit</button>
